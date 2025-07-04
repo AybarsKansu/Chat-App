@@ -1,14 +1,9 @@
 ## 💬 Chat Application
 A full-stack chat application where both frontend and backend are hosted in a single repository. The backend is built with Java Spring Boot and connects to a PostgreSQL database running in Docker, along with a pgAdmin container for managing the database visually.
 
-📁 Project Structure
-project-root/
-├── frontend/        # Your frontend app (e.g., React, Vue)
-├── backend/         # Spring Boot backend
-└── README.md
-
 ## 🚀 Getting Started
-Prerequisites
+### Prerequisites
+
 Node.js and npm (for frontend)
 
 JDK 17+ and Maven (for backend)
@@ -36,12 +31,11 @@ Go to the ChatApp-ui/ directory.
 
 Install dependencies:
 
-bash
 npm install
+
 Start the development server:
 
-bash
-npm start
+npm run
 ## 🐳 Database
 You need to manually run your own Docker setup for:
 
