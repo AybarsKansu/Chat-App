@@ -1,0 +1,36 @@
+.chatheading-root {
+  display: flex;
+  align-items: center;
+  background: #7eda8a;
+  padding: 14px 24px;
+  border-bottom: 1px solid #ffffff;
+  min-height: 48px;
+}
+
+.chatheading-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #393e8f;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.chatheading-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chatheading-icons-right {
+  margin-left: auto;
+}
+
+.chatheading-icon {
+  color: #4e54c8;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.chatheading-icon:hover {
+  color: #6c70e5;
+}
